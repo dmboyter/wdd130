@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Rock+Salt&display=swap');
+:root {
+    --primary-color: #16302B;
+    --secondary-color: #410b13;
+    --accent1-color: #E53D00;
+    --accent2-color: #CBD2D0;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', sans;
+
+    --nav-background-color: #16302B;
+    --nav-link-color: #E53D00;
+    --nav-hover-link-color: #410b13;
+    --nav-hover-background-color: #CBD2D0;
+}
+
+a {
+    text-decoration: none; 
+}
+
+h1,h2 {
+        color: #16302B;
+        padding: 10;
+}
+    
+p {
+        padding: 0;
+}
+
+.hero {
+    position: fi;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    width: 1200px;
+    height: auto;
+    background-color: #16302B;
+    color: #CBD2D0;
+    opacity:100%;
+    text-align: center;
+    transform: translate(20%, -140%);
+    font-size: 20px;
+    position: absolute;
+}
+
+.hero article img {
+    Float: right;
+    width:400px;
+    height: auto;
+
+}
+
+.hero section {
+    width: 500px;
+}
