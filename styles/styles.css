@@ -66,6 +66,10 @@ header, .grid, footer {
   background-color: #CBD2D0;
   color: #16302B;
 }
+
+.indent {
+  padding-left: 2rem;
+}
 .grid {
   display: grid;
   align-items: center;
