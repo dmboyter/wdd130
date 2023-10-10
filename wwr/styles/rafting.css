@@ -15,9 +15,7 @@
 }
 
 /* I do not know how to limit the page (Week3,step 3.7)*/
-* {
-    width: 600px;
-}
+
 
 a {
     text-decoration: none;
@@ -54,11 +52,25 @@ header {
 
 .hero {
     position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction:column 3/4;
+    
+}
 
+.hero h1 {
+    position: absolute;
+    index: 3;
+}
+
+.hero img {
+    position: relative;
+    width: 100%;
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     background-color: #16302B;
     color: #CBD2D0;
     opacity:100%;
@@ -67,13 +79,12 @@ header {
 	margin: 0 0 15px 15px;
 	border: 1px solid rgba(0,0,0,.3);
 	box-shadow: 0 0 30px #777;
-    align-self: center;
 }
 
-.hero img {
+.hero article img {
+    position: relative;
+    width: 20%;
     float: right;
-    top: 10px;
-    right: 10px;
 }
 
 /*copied and pasted this from codepen instructions*/
